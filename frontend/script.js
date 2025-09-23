@@ -11,3 +11,4 @@ document.getElementById("ngoForm").addEventListener("submit", async (e) => {
   const data = await response.json();
   document.getElementById("output").innerText = data.recommendation;
 });
+
