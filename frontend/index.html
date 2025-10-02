@@ -2,20 +2,37 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AidLink</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>AidLink</h1>
-  <form id="ngoForm">
-    <label for="desc">Enter NGO Request:</label><br>
-    <textarea id="desc" rows="4" cols="50"></textarea><br>
-    <button type="submit">Find Match</button>
-  </form>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">
+      <img src="logo.png" alt="AidLink Logo">
+    </div>
+    <div class="nav-buttons">
+      <a href="login.html" class="btn login">Log In</a>
+      <a href="signup.html" class="btn signup">Sign Up</a>
+    </div>
+  </header>
 
-  <h2>Recommendation:</h2>
-  <p id="output"></p>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="overlay">
+      <h1>Welcome to AidLink!</h1>
+      <p>Connecting NGOs and Volunteers through AI</p>
+    </div>
+  </section>
 
-  <script src="script.js"></script>
+  <!-- Footer / About -->
+  <!-- Footer -->
+<footer>
+  <u class="about-text">About Us:</u> 
+  <p class="about"> AidLink is a platform that bridges the gap between NGOs who need help and volunteers who want to contribute.
+It uses AI-powered matching to connect the right volunteers with the right NGO needs based on skills, interests, and context.</p>
+</footer>
 </body>
 </html>
+
