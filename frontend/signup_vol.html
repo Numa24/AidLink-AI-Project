@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Volunteer Sign Up | AidLink</title>
+  <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+  <div class="signup-container">
+    <h2>Volunteer Sign Up</h2>
+    <form>
+      <label for="name">Full Name</label>
+      <input type="text" id="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" required>
+
+      <label for="password">Password</label>
+      <input type="password" id="password" required>
+
+      <label for="skills">Your Skills</label>
+      <input type="text" id="skills" placeholder="e.g., Teaching, Design, Fundraising">
+
+      <label for="availability">Availability</label>
+      <select id="availability">
+        <option value="weekdays">Weekdays</option>
+        <option value="weekends">Weekends</option>
+        <option value="flexible">Flexible</option>
+      </select>
+
+      <label for="location">Location</label>
+      <input type="text" id="location" placeholder="City/Area">
+
+      <button type="submit" class="btn">Sign Up</button>
+    </form>
+  </div>
+</body>
+</html>
